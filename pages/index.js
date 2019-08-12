@@ -1,5 +1,11 @@
-import Link from 'next/link';
+import Navbar from '../components/navbar/navbar';
+import '../scss/style.scss';
 
-export default () => (
-    <p>Hello Next What <Link href="/about"><a>Learn more</a></Link></p>
+const Index = () => (
+    <section>
+        <Navbar />
+
+    </section>
 )
+
+export default Index
