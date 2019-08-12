@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
+import Head from 'next/head';
+
 import "./Navbar.scss";
 
 class Navbar extends Component {
@@ -11,6 +13,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav>
+                <Head><title>Eric Hendrix Full Stack Web Developer</title></Head>
                 <div>
                     <Link href="/">
                         <a title="Our API">Home</a>
